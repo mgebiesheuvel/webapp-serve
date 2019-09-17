@@ -1,0 +1,7 @@
+# Environment files
+mysql.env
+
+# Mapped volumes
+storage/app/*
+storage/logs/*
+storage/mysql/*
