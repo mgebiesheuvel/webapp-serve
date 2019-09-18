@@ -1,5 +1,5 @@
 # Docker Compose configuration
-A quick and easy way to serve web applications, including a MySQL database.
+A quick and easy way to serve web applications, both the app and MySQL database.
 
 ## Install a web applicaiton
 1. Create a new directory `src` in the root folder of this project;
