@@ -1,7 +1,10 @@
 # Webapp Serve
-A quick and easy way to serve web applications, both the app and MySQL database.
+A quick and easy way to serve web applications, both the app and MySQL database. 
 
-## Install a web applicaiton
+## Requirements
+- (Docker)[https://docs.docker.com/install/]
+
+## Install a web application
 1. Create a new directory `src` in the root folder of this project;
 2. Add a web application (i.e. a Laravel app) in the newley created folder;
 
