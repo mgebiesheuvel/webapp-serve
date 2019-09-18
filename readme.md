@@ -1,8 +1,8 @@
 # Webapp Serve
-A quick and easy way to serve web applications using (Docker)[https://www.docker.com]. It will serve both a web application and MySQL database.
+A quick and easy way to serve web applications using [Docker](https://www.docker.com). It will serve both a web application and MySQL database.
 
 ## Requirements
-- (Docker)[https://docs.docker.com/install/]
+- [Docker](https://docs.docker.com/install/)
 
 ## Install a web application
 1. Create a new directory `src` in the root folder of this project;
