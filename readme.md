@@ -1,4 +1,4 @@
-# Docker Compose configuration
+# Webapp Serve
 A quick and easy way to serve web applications, both the app and MySQL database.
 
 ## Install a web applicaiton
