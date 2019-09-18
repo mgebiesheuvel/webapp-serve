@@ -5,3 +5,6 @@ mysql.env
 storage/app/*
 storage/logs/*
 storage/mysql/*
+
+# Other files
+.DS_Store
