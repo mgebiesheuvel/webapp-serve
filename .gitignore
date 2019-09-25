@@ -2,7 +2,8 @@
 src/*
 
 # Environment files
-mysql.env
+config/mysql.env
+config/phpmyadmin.env
 
 # Mapped volumes
 storage/app/*
