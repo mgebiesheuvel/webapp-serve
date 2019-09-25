@@ -3,16 +3,35 @@ services:
     mysql:
         container_name: mysql
         image: mysql:5.7
+        restart: always
         env_file:
             - ./config/mysql.env
         volumes:
             - ./storage/mysql:/var/lib/mysql
+        networks: 
+            - webapp
+    phpmyadmin:
+        container_name: phpmyadmin
+        image: phpmyadmin/phpmyadmin:latest
+        depends_on: 
+            - mysql
+        restart: always
+        env_file:
+            - ./config/phpmyadmin.env
+        ports: 
+            - 8080:80
+        networks: 
+            - webapp
     app:
         container_name: app
         image: creativitykills/nginx-php-server:latest
+        networks: 
+            - webapp
         ports:
             - 8000:80
         volumes:
             - ./src:/var/www
             - ./storage/app:/var/www/storage/app
             - ./storage/logs:/var/www/storage/logs
+networks:
+    webapp:
