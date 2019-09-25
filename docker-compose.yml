@@ -25,6 +25,8 @@ services:
     app:
         container_name: app
         image: creativitykills/nginx-php-server:latest
+        links: 
+            - mysql
         networks: 
             - webapp
         ports:
