@@ -10,7 +10,7 @@ A quick and easy way to serve web applications using [Docker](https://www.docker
 3. Add a web application (i.e. a Laravel app) in the newley created folder.
 
 ## Starting the containers
-1. Run `docker-compose up -d` to serve the app and database; The app will be available on `http://127.0.0.1:8000`.
+1. Run `docker-compose up -d` to serve the app and database; The app will be available on `http://127.0.0.1:8000`. PHPMyAdmin will be available on `http://127.0.0.1:8080`.
 
 ## Stopping the containers
 1. Run `docker-compose down` to stop all the running containers;
