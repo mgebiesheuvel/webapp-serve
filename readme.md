@@ -1,5 +1,5 @@
 # Webapp Serve
-A quick and easy way to serve web applications using [Docker](https://www.docker.com). It will serve both a web application and MySQL database.
+A quick and easy way to serve web applications using [Docker](https://www.docker.com). It will serve both a web application and MySQL database, including PHPMyAdmin.
 
 ## Requirements
 - [Docker](https://docs.docker.com/install/)
