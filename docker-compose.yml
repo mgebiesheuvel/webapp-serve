@@ -32,8 +32,8 @@ services:
         ports:
             - 8000:80
         volumes:
-            - ./src:/var/www
-            - ./storage/app:/var/www/storage/app
-            - ./storage/logs:/var/www/storage/logs
+            - ./src:/var/www:cached
+            - ./storage/app:/var/www/storage/app:cached
+            - ./storage/logs:/var/www/storage/logs:cached
 networks:
     webapp:
